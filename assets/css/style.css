@@ -12949,6 +12949,33 @@ div#mCSB_1_container{
 
 }
 
+@media only screen and (min-width: 992px){
+  .main-header.style-five .header-lower .outer-box,
+  .main-header.style-five .sticky-header .outer-box{
+    display: flex;
+    align-items: center;
+  }
+
+  .main-header.style-five .header-lower .menu-area,
+  .main-header.style-five .sticky-header .menu-area{
+    float: none;
+    order: 2;
+    margin-left: auto;
+  }
+
+  .main-header.style-five .header-lower .menu-right-content,
+  .main-header.style-five .sticky-header .menu-right-content{
+    float: none;
+    order: 1;
+    margin-right: 25px;
+  }
+
+  .main-header.style-five .menu-right-content .cart-box,
+  .main-header.style-five .menu-right-content .search-box-outer,
+  .main-header.style-five .menu-right-content .restore-option{
+    display: none;
+  }
+}
 .main-header.style-five .menu-right-content .restore-option a i{
   margin-right: 10px;
 }
